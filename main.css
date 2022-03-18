@@ -1,0 +1,24 @@
+﻿body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 10px;
+  position: relative;
+  background-color: lemonchiffon;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 100px 1fr 60%;
+  align-items: center;
+}
+
+p {
+  display: grid;
+  color: rgb(9, 1, 82);
+  padding-right: 40px;
+}
+
+.card_id {
+  color: blueviolet;
+  opacity: .5;
+
+}
